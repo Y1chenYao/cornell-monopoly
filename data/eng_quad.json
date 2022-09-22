@@ -1,0 +1,534 @@
+{
+	"areas": [
+		{
+			"area": "Gates Hall",
+			"loop": 1,
+			"description": "You are on Gates Hall.",
+			"nodes": [
+				{
+					"id": 1,
+					"node_info": {
+						"teleport": {
+							"description": "This is, line 10",
+							"is_bus": true,
+							"dest_loop": 2,
+							"dest_id": 12
+						}
+					}
+				},
+				{
+					"id": 2,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 3,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 4,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 5,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 6,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 7,
+					"node_info": {
+						"ordinary": {
+							"description": "this is an ordinary node",
+							"is_star": false
+						}
+					}
+				},
+				{
+					"id": 8,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 9,
+					"node_info": {
+						"shop": {
+							"gadget": [
+								{
+									"name": "Latte",
+									"description": "This is gimme cafe's Latte.",
+									"cost": 2,
+									"gpa_change": 0.1,
+									"mood_change": 1
+								},
+								{
+									"name": "Cameral Macchiato",
+									"description": "This is gimme cafe's Cameral Macchiato.",
+									"cost": 2,
+									"gpa_change": 0.1,
+									"mood_change": 1
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 10,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 11,
+					"node_info": {
+						"teleport": {
+							"description": "This is bridge",
+							"is_bus": false,
+							"dest_loop": 2,
+							"dest_id": 6
+						}
+					}
+				},
+				{
+					"id": 12,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				}
+			]
+		},
+		{
+			"area": "Statler Hall",
+			"loop": 2,
+			"description": "You are on North Campus.",
+			"nodes": [
+				{
+					"id": 1,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 2,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 3,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 4,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 5,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 6,
+					"node_info": {
+						"teleport": {
+							"description": "This is a bridge",
+							"is_bus": false,
+							"dest_loop": 1,
+							"dest_id": 11
+						}
+					}
+				},
+				{
+					"id": 7,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 8,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 9,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 10,
+					"node_info": {
+						"shop": {
+							"gadget": [
+								{
+									"name": "Beef Rice Bowl",
+									"description": "This is from Terrace's Pho Bar.",
+									"cost": 9,
+									"gpa_change": 0.1,
+									"mood_change": 2
+								},
+								{
+									"name": "Burrito Bowl",
+									"description": "This is from Terrace's Burrito Bar.",
+									"cost": 9,
+									"gpa_change": 0.1,
+									"mood_change": 2
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 11,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 12,
+					"node_info": {
+						"teleport": {
+							"description": "This is, line 10",
+							"is_bus": true,
+							"dest_loop": 1,
+							"dest_id": 1
+						}
+					}
+				}
+			]
+		},
+		{
+			"area": "Rhodes Hall",
+			"loop": 3,
+			"description": "You are in Central Campus.",
+			"nodes": [
+				{
+					"id": 1,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 2,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 3,
+					"node_info": {
+						"teleport": {
+							"description": "This is, line 30",
+							"is_bus": true,
+							"dest_loop": 4,
+							"dest_id": 10
+						}
+					}
+				},
+				{
+					"id": 4,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 5,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 6,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 7,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 8,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 9,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 10,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 11,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 12,
+					"node_info": {
+						"teleport": {
+							"description": "This is a bridge",
+							"is_bus": false,
+							"dest_loop": 4,
+							"dest_id": 5
+						}
+					}
+				}
+			]
+		},
+		{
+			"area": "Duffield Hall",
+			"loop": 4,
+			"description": "You are in college town.",
+			"nodes": [
+				{
+					"id": 1,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 2,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 3,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 4,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 5,
+					"node_info": {
+						"teleport": {
+							"description": "This is bridge",
+							"is_bus": false,
+							"dest_loop": 3,
+							"dest_id": 12
+						}
+					}
+				},
+				{
+					"id": 6,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 7,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 8,
+					"node_info": {
+						"shop": {
+							"gadget": [
+								{
+									"name": "Chicken Chipotle Ranch Wrap",
+									"description": "This is Mattin's Chicken Chipotle Ranch Wrap.",
+									"cost": 7,
+									"gpa_change": 0.1,
+									"mood_change": 2
+								},
+								{
+									"name": "Mattin's Club",
+									"description": "This is Mattin's Club.",
+									"cost": 7,
+									"gpa_change": 0.1,
+									"mood_change": 2
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 9,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 10,
+					"node_info": {
+						"teleport": {
+							"description": "This is, line 30",
+							"is_bus": true,
+							"dest_loop": 3,
+							"dest_id": 3
+						}
+					}
+				},
+				{
+					"id": 11,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				},
+				{
+					"id": 12,
+					"node_info": {
+						"ordinary": {
+							"is_star": false,
+							"description": "this is an ordinary node"
+						}
+					}
+				}
+			]
+		}
+	],
+	"start node": {
+		"loop": 1,
+		"id": 4
+	},
+	"rnd events": [
+		{
+			"description": "You played Genshin Impact to relax",
+			"brb_change": 0,
+			"gpa_change": -0.1,
+			"mood_change": 2
+		}
+	]
+}
