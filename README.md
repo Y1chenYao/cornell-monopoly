@@ -1,4 +1,25 @@
 # Cornell Monopoly
+#### Co-authors: Melanie Gao, Siyuan Shen, Yichen Yao
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68068854/191635438-4f88e0c5-fd56-49d1-bbe9-98583796e6ca.png" alt="screenshot" width="50%" />
+</p>
+
+
+
+## Installation
+
+1. Please follow directions from [CS3110 OCaml setup guide](https://cs3110.github.io/textbook/chapters/preface/install.html).
+
+2. Download the zip file and copy it to the linux subsystem. Cd to the corresponding folder. Unzip it in the commandline.
+
+3. If there accidentally exists `_build` folder (which shouldn't happen), run `make clean`.
+
+4. Run `make build`
+
+5. Run `make play`, and you can enter number of players and player names. Game starts!
+
+## Game rules
 
 ### How to win?
 
